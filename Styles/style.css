@@ -13,10 +13,22 @@ h1 {
 
 }
 
-h3 {
+h2 {
     text-align: center;
     font-family: Segoe UI, sans-serif;
-    font-size: 18px;
+}
+
+.zoom {
+    /* padding: 50px;
+    background-color: green; */
+    transition: transform 1s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+.zoom:hover {
+    transform: scale(1.2);
 }
 
 #subheader {
@@ -85,6 +97,8 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .centerimage {
@@ -107,7 +121,7 @@ h3 {
     margin-right: auto; */
 }
 
-@media screen and (max-width: 640px){
+/* @media screen and (max-width: 640px){
     .parent{
         flex-direction: column;
     }
