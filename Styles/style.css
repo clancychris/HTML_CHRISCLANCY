@@ -8,6 +8,8 @@ body {
 h1 {
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 40px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -17,17 +19,62 @@ h3 {
     font-size: 18px;
 }
 
+#subheader {
+    font-size: 24px;
+}
+
 .top-container {
+    width: 500px;
     background-color: #F8F4EA;
     text-align: center;
     width: 100%;
     margin: 0 auto 0 auto;
     font-family: tahoma, sans-serif;
     padding-top: 80px; 
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .middle-container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.obstacles-container {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.obstacles-container-box {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    /* overflow: auto; */
+}
+
+.box1 {
+    flex-grow: 1;
+    width: 30%;
+    display: flex;
+    flex: 28%;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+    background-color: #ECE8DD;
+    min-height: 50px;
+    max-height: 300px;
+    min-width: 200px;
+    overflow: auto;
+}
+
+.work-experience {
 
 }
 
@@ -59,3 +106,9 @@ h3 {
     margin-left: auto;
     margin-right: auto; */
 }
+
+@media screen and (max-width: 640px){
+    .parent{
+        flex-direction: column;
+    }
+} */
