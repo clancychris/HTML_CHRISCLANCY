@@ -22,13 +22,13 @@ h2 {
     /* padding: 50px;
     background-color: green; */
     transition: transform 1s;
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
     margin: 0 auto;
   }
   
 .zoom:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 #subheader {
@@ -75,20 +75,67 @@ h2 {
     flex-grow: 1;
     width: 30%;
     display: flex;
-    flex: 28%;
+    flex: 25%;
     padding: 10px;
     margin: 15px;
     height: auto;
     background-color: #ECE8DD;
-    min-height: 50px;
-    max-height: 300px;
+    min-height: 60px;
+    max-height: 320px;
     min-width: 200px;
     overflow: auto;
 }
 
-.work-experience {
 
+
+.work-experience {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.work-experience-container {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.work-experience-date-box {
+    flex-grow: 1;
+    width: 10%;
+    display: flex;
+    flex: 10%;
+    padding: 10px;
+    margin: 15px;
+    background-color: #ECE8DD;
+    min-height: 50px;
+    min-width: 100px;
+    overflow: auto;
+    text-align: center;
+    
+}
+
+.work-experience-job-box {
+    flex-grow: 1;
+    width: 90%;
+    display: flex;
+    flex: 90%;
+    padding: 10px;
+    margin: 15px;
+    background-color: #ECE8DD;
+    min-height: 50px;
+    min-width: 200px;
+    overflow: auto;
+}
+
+#Row {
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+    margin: 0;  
+}
+
 
 .bottom-container {
     background-color: #F8F4EA;
