@@ -1,175 +1,264 @@
-
 body {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 
 h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 40px;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
-    text-align: center;
-    font-family: Segoe UI, sans-serif;
+  text-align: center;
+  font-family: Segoe UI, sans-serif;
 }
 
 .zoom {
-    /* padding: 50px;
-    background-color: green; */
-    transition: transform 1s;
-    /* width: 200px;
-    height: 200px; */
-    margin: 0 auto;
-  }
-  
+  transition: transform 1s;
+  margin: 0 auto;
+}
+
+.zoom2 {
+  transition: transform 1s;
+  margin: 0 auto;
+}
+
 .zoom:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.zoom2:hover {
+  transform: scale3d(1.04, 1.08, 1);
 }
 
 #subheader {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .top-container {
-    width: 500px;
-    background-color: #F8F4EA;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto 0 auto;
-    font-family: tahoma, sans-serif;
-    padding-top: 80px; 
-    padding-bottom: 80px;
+  width: 500px;
+  background-color: #f8f4ea;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  font-family: tahoma, sans-serif;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .middle-container {
-    width: 80%;
-    margin: 0 auto 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  margin: 0 auto 0 auto;
+  width: 85%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .obstacles-container {
-    width: 90%;
-    margin: 0 auto 0 auto;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 90%;
+  margin: 0 auto 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recent-projects-container {
+  margin: 0 auto 0 auto;
+  width: 85%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .obstacles-container-box {
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 10px;
-    /* overflow: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  /* overflow: auto; */
 }
 
 .box1 {
-    flex-grow: 1;
-    width: 30%;
-    display: flex;
-    flex: 25%;
-    padding: 10px;
-    margin: 15px;
-    height: auto;
-    background-color: #ECE8DD;
-    min-height: 60px;
-    max-height: 320px;
-    min-width: 200px;
-    overflow: auto;
+  flex-grow: 1;
+  width: 30%;
+  display: flex;
+  flex: 25%;
+  padding: 10px;
+  margin: 15px;
+  height: auto;
+  background-color: #ece8dd;
+  min-height: 60px;
+  max-height: 320px;
+  min-width: 200px;
+  overflow: auto;
 }
 
-
-
 .work-experience {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .work-experience-container {
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 10px;
-    width: 70%;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .work-experience-date-box {
-    flex-grow: 1;
-    width: 10%;
-    display: flex;
-    flex: 10%;
-    padding: 10px;
-    margin: 15px;
-    background-color: #ECE8DD;
-    min-height: 50px;
-    min-width: 100px;
-    overflow: auto;
-    text-align: center;
-    
+  flex-grow: 1;
+  width: 10%;
+  display: flex;
+  flex: 10%;
+  padding: 1px;
+  margin: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ece8dd;
+  min-height: 50px;
+  min-width: 100px;
+  overflow: auto;
+  text-align: center;
 }
 
 .work-experience-job-box {
-    flex-grow: 1;
-    width: 90%;
-    display: flex;
-    flex: 90%;
-    padding: 10px;
-    margin: 15px;
-    background-color: #ECE8DD;
-    min-height: 50px;
-    min-width: 200px;
-    overflow: auto;
+  flex-grow: 1;
+  width: 90%;
+  display: flex;
+  flex: 90%;
+  padding: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 15px;
+  background-color: #ece8dd;
+  min-height: 50px;
+  min-width: 200px;
+  overflow: auto;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.education-level-box {
+  flex-grow: 1;
+  width: 10%;
+  display: flex;
+  flex: 10%;
+  padding: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 15px;
+  background-color: #ece8dd;
+  min-height: 50px;
+  min-width: 100px;
+  overflow: auto;
+  text-align: center;
+  vertical-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.education-qualification-box {
+  flex-grow: 1;
+  width: 90%;
+  display: flex;
+  flex: 90%;
+  padding: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 15px;
+  background-color: #ece8dd;
+  min-height: 50px;
+  min-width: 200px;
+  overflow: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-center {
+  text-align: justify;
+  margin: auto;
 }
 
 #Row {
-    display: flex; 
-    flex-direction: row;
-    width: 100%;
-    margin: 0;  
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
 }
 
-
 .bottom-container {
-    background-color: #F8F4EA;
-    text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 40px;
+  background-color: #f8f4ea;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .centerimage {
-    width: 30%;
-    margin: auto;
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  width: 30%;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .tablecenter {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.skill-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.skill-box {
+  background-color: #ece8dd;
+  border-radius: 5px;
+  padding: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.edu-level {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.contact-me-container {
+  margin: 0 auto 0 auto;
+  width: 85%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 .btn {
-    /* text-align: center;
+  /* text-align: center;
     margin-left: auto;
     margin-right: auto; */
 }
-
-/* @media screen and (max-width: 640px){
-    .parent{
-        flex-direction: column;
-    }
-} */
+.body {
+  opacity: 0;
+  transition: opacity 5s;
+}
