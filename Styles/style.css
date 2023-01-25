@@ -17,24 +17,26 @@ h2 {
 }
 
 .zoom {
-  transition: transform 1s, box-shadow, 1s;
+  transition: transform 2s, box-shadow 2s, border-radius 1s;
   border-radius: 100%;
   margin: 0 auto;
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.6);
 }
 
 .zoom2 {
-  transition: transform 1s;
-  margin: 0 auto;
+  transition: transform 1s, box-shadow 1s;
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
 .zoom:hover {
   transform: scale(1.1);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  border-radius: 30%;
 }
 
 .zoom2:hover {
   transform: scale3d(1.04, 1.08, 1);
+  box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
 #subheader {
