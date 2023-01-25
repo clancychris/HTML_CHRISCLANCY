@@ -17,8 +17,10 @@ h2 {
 }
 
 .zoom {
-  transition: transform 1s;
+  transition: transform 1s, box-shadow, 1s;
+  border-radius: 100%;
   margin: 0 auto;
+  box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.6);
 }
 
 .zoom2 {
@@ -28,6 +30,7 @@ h2 {
 
 .zoom:hover {
   transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
 }
 
 .zoom2:hover {
@@ -94,6 +97,13 @@ h2 {
   max-height: 320px;
   min-width: 200px;
   overflow: auto;
+  transition-property: background, transform, color;
+  transition-duration: 4s, 3s, 2s;
+}
+
+.box1:hover {
+  background: #f9f7f2;
+  transform: scale3d(1.04, 1.08, 1);
 }
 
 .work-experience {
