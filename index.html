@@ -14,12 +14,16 @@
             transition: opacity 3s;
         }
     </style>
+
   </head>
 
   <body onload="document.body.style.opacity='1'">
   <script type="text/javascript" src="script.js"></script>
   <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
+  <div class="dropdown">
+  <button onclick="dropFunction()" class="dropbtn">&#9776</button>
+  <div id="myDropdown" class="dropdown-content">
+  <a href="#home">Home</a>
   <a href="#bio">Bio</a>
   <a href="#overcoming">Overcoming</a>
   <a href="#experience">Experience</a>
@@ -27,12 +31,8 @@
   <a href="#skills">Skills</a>
   <a href="#projects">Projects</a>
   <a href="#contact">Contact</a>
-
-
-
-  <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i> -->
-  </a>
+  </div>
+</div>
 </div>
     <div class="top-container" ID="home">
       <h1>Chris Clancy</h1>
@@ -42,7 +42,7 @@
     </div>
     <div class="progress"></div>
 
-    <hr />
+    <!-- <hr /> -->
     <div class="middle-container" ID="bio">
       <h2>Bio:</h2>
       <img class="image-float" src="/aboutme.png" alt="" />
