@@ -6,7 +6,7 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-5z
+
 function dropFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }

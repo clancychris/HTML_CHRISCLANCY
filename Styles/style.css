@@ -404,7 +404,7 @@ html {
 .dropdown-content {
   left: auto;
   right: 0;
-  text-align: right;
+  text-align: center;
   margin-right: 20px;
   opacity: 70%;
   display: none;
@@ -421,7 +421,7 @@ html {
   text-decoration: none;
   display: block;
   height: 20px;
-  text-align: right;
+  text-align: center;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
