@@ -7,6 +7,7 @@
     <title>Chris Clancy - Developer</title>
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="icon" href="favicon.ico" sizes"any">
+
     <style>
         body {
             opacity: 0;
@@ -16,18 +17,33 @@
   </head>
 
   <body onload="document.body.style.opacity='1'">
-    <div class="top-container">
+  <script type="text/javascript" src="script.js"></script>
+  <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#bio">Bio</a>
+  <a href="#overcoming">Overcoming</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+
+
+
+  <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i> -->
+  </a>
+</div>
+    <div class="top-container" ID="home">
       <h1>Chris Clancy</h1>
       <br />
-      <div class="cube-wrap">
-</div>
       <img class="zoom" src="/me.jpeg" alt="Picture of Chris" />
       <p id="subheader"><em>Developer</em></p>
     </div>
     <div class="progress"></div>
 
     <hr />
-    <div class="middle-container">
+    <div class="middle-container" ID="bio">
       <h2>Bio:</h2>
       <img class="image-float" src="/aboutme.png" alt="" />
       <br />
@@ -52,7 +68,7 @@
       </p>
     </div>
     <hr />
-    <div class="obstacles-container">
+    <div class="obstacles-container" ID="overcoming">
       <h2>Obstacles I have faced.</h2>
       <img class="image-float" src="/ambition.png" alt="" />
       <div class="obstacles-container-box">
@@ -90,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div class="work-experience">
+    <div class="work-experience" ID="experience">
       <hr />
       <h2>Work Experience</h2>
       <img class="image-float" src="/working.png" alt="" />
@@ -121,7 +137,7 @@
         </div>
       </div>
     </div>
-    <div class="education">
+    <div class="education" ID="education">
       <hr />
       <h2>Education:</h2>
       <img class="image-float" src="/education.png" alt="" />
@@ -163,7 +179,7 @@
         </div>
       </div>
     </div>
-    <div class="skills">
+    <div class="skills" ID="skills">
       <hr />
       <h2>Skills</h2>
       <img class="image-float" src="/skills.png" alt="" />
@@ -193,29 +209,13 @@
             <p>⭐️</p>
           </div>
         </div>
-        <!-- <thead></thead>
-        <tbody>
-          <tr>
-            <td>Python</td>
-            <td>⭐️⭐️⭐️</td>
-            <td>HTML</td>
-            <td>⭐️⭐️⭐️</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>⭐️⭐️</td>
-            <td>Javascript</td>
-            <td>⭐️</td>
-          </tr>
-        </tbody>
-        <!-- </div> -->
-      </table>
+
 
     </div>
 
     <hr />
 
-    <div class="recent-projects-container">
+    <div class="recent-projects-container" ID="projects">
       <h2>Recent Projects:</h2>
       <img class="image-float" src="/clipboard.png" alt="" />
       <p>
@@ -226,7 +226,7 @@
       </p>
     </div>
     <hr />
-    <div class="contact-me-container">
+    <div class="contact-me-container" ID="contact">
       <h3>Connect with me</h3>
       <a class="btn" href="mailto:clancychris25@gmail.com">EMAIL ME</a>
     </div>
